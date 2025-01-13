@@ -134,9 +134,3 @@ st.write(user_input)
 price_prediction = gb_model.predict(user_input)
 st.subheader('Predicted Price')
 st.write(f"${price_prediction[0]:,.2f}")
-
-# Display additional information
-st.write("""
-### About this app:
-This app uses a machine learning model trained on the **diamonds dataset** to predict the price of a diamond based on the input features such as carat, cut, color, clarity, and dimensions (x, y, z).
-""")
